@@ -1,0 +1,22 @@
+<div class="class">
+    <p *ngIf="show">Exibindo mensagem</p>
+    <button (click)="showMessage()">Clique em Mim</button>
+
+
+    <div class="teste">
+        <form *ngIf="show2">
+            <label>Digite Seu nome</label><br>
+        <input type="text" class="nome" id="name"><br>
+        <label>Digite sua idade</label><br>
+        <input type="number"><br>
+      
+        </form>
+        
+        <button (click)="substituir()">Esconder Formulário</button>
+    </div>
+
+
+
+
+
+</div>
